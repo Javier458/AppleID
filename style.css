@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.first-nav{
+    background-color: #1D1D1F;
+    height: 44px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-nav{
+    display: flex;
+    justify-content:center;
+}
+
+.logo{
+    margin: 10px 5px 10px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.logo-icon{
+    font-size: 20px;
+    line-height: 42px;
+    list-style: none;
+    text-decoration: none;
+    color: #CACACA
+}
+
+.logo-icon:hover{
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.logo-icon2{
+    font-size: 20px;
+    line-height: 42px;
+    list-style: none;
+    text-decoration: none;
+    color: #CACACA;
+    display: none;
+}
+
+.logo-icon2:hover{
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.icon{
+    margin: 13px 5px 10px 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.nav-item{
+    font-size: 12px;
+    line-height: 44px;
+    margin: 0px 18px;
+    width: max-content;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-link{
+    color: #CACACA;
+    text-decoration: none;
+}
+
+.second-nav{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #a3a3a3;
+    margin: 0 80px;
+    height: 60px;
+    align-items: center;
+    text-align: center;    
+}
+
+.tittle-id a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.menu{
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 0px 0 20px;
+}
+
+.nav-toggle, .arrow-toggle{
+    color: #CACACA;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.arrow-toggle{
+    color: #363636;
+}
+
+.logo-page{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 30px auto;
+}
+
+.login-container{
+    display: block;
+    text-align: center;
+}
+
+.textContainer{
+    width: 100%;
+}
+
+.textContainer h1{
+    padding: 30px;
+    font-weight: 500;
+}
+
+.textContainer .subtittle{
+    font-size: 20px;
+    padding: 0 0 20px 0;
+}
+
+.formContainer{
+    display: block;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.controls{
+    max-width: 350px;
+    height: 70px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.controls:placeholder-shown{
+    border: 1px solid #363636;
+}
+
+.controls::placeholder{
+    font-size: 20px;
+}
+
+.controls:focus{
+    outline: solid #0071e3;
+}
+
+.one{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.two{
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+.complements{
+    padding: 10px;
+}
+
+input[type=checkbox]{
+    transform: scale(1.4);
+}
+
+.recordar{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0 30px;
+}
+
+.complements .button{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    background-color: #0071e3;
+    font-size: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #258ef7;
+}
+
+.olvidado{
+    padding: 20px 0;
+    margin-bottom: 200px;
+}
+
+.olvidado a{
+    text-decoration: none;
+    color: #0071e3;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #F5F5F7;
+    width: 100%;
+    padding: 20px 160px;
+}
+
+.link{
+    text-decoration: none;
+    color: #0071e3
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.pais{
+    text-align: right;
+}
+
+@media (max-width: 826px){
+    /* .first-nav{
+        background-color: #000000;
+    } recordar hacer el cambio del color al abrir menu hamburguesa*/
+    
+    .nav-item{
+        font-size: 12px;
+        line-height: 44px;
+        margin: 0px 18px;
+        width: max-content;
+    }
+    
+    .nav-link:hover{
+        color: #FFFFFF;
+        transition: 0.5s;
+    }
+
+    .logo-icon2{
+        display: block;
+    }
+
+    .logo-icon{
+        display: none;
+    }
+
+    .search-icon{
+        display: none;
+    }
+
+    .nav-item{
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    .nav-menu{
+        flex-direction: column;
+        margin-right: 0px;
+        list-style: none;
+        background-color: #000000;
+        position: fixed;
+        left: 0;
+        top: 44px;
+        width: 100%;
+        height: calc(100% - 44px);
+        padding: 0px 30px;
+        overflow-y: auto;
+        top: -100%;
+        transition: top 0.3s;
+    }
+
+    .nav-menu li{
+        border-top: 0.5px solid #363636;
+    }
+    
+    .nav-link{
+        color: #CACACA;
+        text-decoration: none;
+    }
+    
+    .second-nav{
+        padding-top: 10px;
+    }
+    
+    .nav-toggle{
+        display: block;
+        padding: 0;
+    }
+
+    .phone{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .nav-menu_visible{
+        top: 44px;
+    }
+
+    .second-nav{
+        padding: 15px 10px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .menu{
+        flex-direction: column;
+        background-color: #FFFFFF;
+        height: calc(100% - 104px);
+        margin: 0;
+        position: fixed;
+        top: 104px;
+        width: 100%;
+        padding: 0;
+        margin-left: -10px;
+        top: -100%;
+        transition: top 0.2s;
+    }
+
+    .menu-item{
+        display: flex;
+        font-size: 15px;
+        line-height: 44px;
+        margin: 0px;
+        width: max-content;
+        
+    }
+
+    .menu li{
+        padding: 0;
+        margin: 0 40px;
+        border-bottom: 0.5px solid #363636;
+    }
+
+    .arrow-toggle{
+        display: block;
+    }
+
+    .tittle-id{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .menu_visible{
+        top: 104px;
+    }
+
+    footer{
+        background-color: #F5F5F7;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .link{
+        text-decoration: none;
+        color: #0071e3
+    }
+    
+    .link:hover{
+        text-decoration: underline;
+    }
+    
+    .pais{
+        text-align: left;
+    }
+
+}
